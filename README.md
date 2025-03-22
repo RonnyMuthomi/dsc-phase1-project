@@ -1,67 +1,43 @@
-# Aviation Risk Analysis for Aircraft Acquisition
+# Aviation Risk Analysis
 
 ## Overview
-This repository contains the analysis and insights for determining the lowest-risk aircraft for commercial and private operations. The goal is to support the company's expansion into the aviation industry by identifying aircraft with the lowest risk profiles based on historical accident data. The findings are presented through data analysis, visualizations, and actionable insights to guide the aviation division's purchasing decisions.
-
----
+This project aims to analyze aviation accident data to determine the lowest-risk aircraft models for commercial and private enterprises. The analysis will provide actionable insights for the company's aviation division to guide their aircraft purchasing decisions.
 
 ## Business Understanding
 ### Stakeholder
-- **Head of the New Aviation Division**: Responsible for deciding which aircraft to purchase and operate.
+The primary stakeholder is the head of the company's new aviation division, responsible for making data-driven decisions on aircraft acquisition.
 
 ### Key Business Questions
-1. Which aircraft models have the lowest historical accident rates?
-2. What factors contribute to the risk profile of an aircraft (e.g., age, manufacturer, usage type)?
-3. How can the company minimize operational risks when entering the aviation industry?
-
----
+- Which aircraft models have the lowest accident rates?
+- What are the common causes of aviation accidents?
+- How do different aircraft manufacturers compare in terms of safety?
+- What factors contribute most to aviation risk, and how can they be mitigated?
 
 ## Data Understanding and Analysis
 ### Source of Data
-The dataset used is from the **National Transportation Safety Board (NTSB)**, containing civil aviation accident and incident data from **1962 to 2023** in the United States and international waters. The dataset includes details such as aircraft type, manufacturer, accident severity, and contributing factors.
+The dataset is sourced from Kaggle, containing aviation accident data from the National Transportation Safety Board (NTSB) covering incidents from 1962 to 2023.
 
 ### Description of Data
-The dataset includes the following key columns:
-- **Aircraft Type**: Model and type of aircraft.
-- **Manufacturer**: Company that produced the aircraft.
-- **Accident Date**: Date of the accident.
-- **Injury Severity**: Level of injury or fatality.
-- **Phase of Flight**: Phase during which the accident occurred (e.g., takeoff, landing).
-- **Contributing Factors**: Factors that led to the accident (e.g., mechanical failure, weather).
+- **Accident Number**: Unique identifier for each incident.
+- **Aircraft Model**: Type of aircraft involved.
+- **Aircraft Manufacturer**: Company that produced the aircraft.
+- **Event Date**: Date of the accident.
+- **Location**: Geographic location of the incident.
+- **Injury Severity**: Classification of accident severity.
+- **Probable Cause**: Summary of the likely cause.
+- **Weather Conditions**: Environmental factors during the event.
+- **Phase of Flight**: Flight phase during which the incident occurred.
 
-### Data Preprocessing
-- Handled missing values by imputing or removing incomplete records.
-- Aggregated data by aircraft model and manufacturer to calculate accident rates.
-- Filtered data to focus on commercial and private aircraft.
-
----
-
-## Visualizations
-### 1. **Accident Rates by Aircraft Model**
-![Accident Rates by Aircraft Model](visualizations/accident_rates_by_model.png)  
-*This bar chart shows the accident rates for the top 20 aircraft models, highlighting the lowest-risk models.*
-
-### 2. **Accident Severity by Phase of Flight**
-![Accident Severity by Phase of Flight](visualizations/accident_severity_by_phase.png)  
-*This heatmap visualizes the severity of accidents during different phases of flight, helping identify high-risk operational phases.*
-
-### 3. **Contributing Factors to Accidents**
-![Contributing Factors](visualizations/contributing_factors.png)  
-*This pie chart breaks down the primary contributing factors to accidents, such as mechanical failure, human error, and weather conditions.*
-
----
+### Visualizations
+1. **Aircraft Model vs. Number of Accidents** – A bar chart showing the most and least accident-prone aircraft models.
+2. **Accident Causes by Category** – A pie chart breaking down the most common probable causes.
+3. **Accident Trends Over Time** – A line graph displaying the trend of aviation accidents from 1962 to 2023.
 
 ## Conclusion
-### Summary of Findings
-1. **Lowest-Risk Aircraft Models**: Aircraft models from manufacturers like [Manufacturer Name] consistently show lower accident rates, making them ideal candidates for acquisition.
-2. **High-Risk Phases of Flight**: Accidents are most frequent during takeoff and landing, suggesting the need for enhanced training and safety protocols during these phases.
-3. **Primary Contributing Factors**: Mechanical failures and human error are the leading causes of accidents, emphasizing the importance of rigorous maintenance and pilot training programs.
+### Key Findings
+1. **Aircraft Models with Lowest Risk** – Certain aircraft models exhibit significantly lower accident rates based on historical data.
+2. **Common Accident Causes** – Pilot error and mechanical failure are the top contributors to aviation accidents.
+3. **Safety Trends** – Over the years, aviation safety has improved, but certain aircraft types and manufacturers have higher risks than others.
 
-### Actionable Insights
-- Prioritize purchasing aircraft models with the lowest historical accident rates.
-- Invest in advanced training programs for pilots, particularly for high-risk phases of flight.
-- Implement strict maintenance schedules to minimize mechanical failures.
+These insights will assist the aviation division in making informed aircraft purchasing decisions, minimizing risks, and ensuring a safer fleet for operations.
 
----
-
-This analysis provides a data-driven foundation for the company's entry into the aviation industry, ensuring informed and risk-averse decision-making.
