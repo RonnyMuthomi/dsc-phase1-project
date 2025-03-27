@@ -75,5 +75,5 @@ The dataset is sourced from Kaggle, containing aviation accident data from the N
 ### Key Findings
 1. **Aircraft Models with Lowest Risk** – Certain aircraft models exhibit significantly lower accident rates based on historical data.
 2. **Common Accident Causes** – Pilot error and mechanical failure are the top contributors to aviation accidents.
-3. **Safety Trends** – Over the years, aviation safety has improved, but certain aircraft types and manufacturers have higher risks than others.
+
 
