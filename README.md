@@ -29,7 +29,22 @@ The dataset is sourced from Kaggle, containing aviation accident data from the N
 - **Weather Conditions**: Environmental factors during the event.
 - **Phase of Flight**: Flight phase during which the incident occurred.
 
+  ### Business Objective 1 Finding
+  **Lowest Accident Rates**: The analysis identifies the top 10 safest aircraft models based on accident count. These models have 
+  the lowest number of reported accidents in the dataset, making them statistically safer in terms of historical incident records.
+  **Aircraft Models with Minimal Incidents**: The models **100 180, 100-160, 1000, 1000 STU, 1000LT, 1002, 100D2, Zodiac CH-601- 
+  H, 1-11, and 1-11-204AF** emerged as having the fewest recorded accidents. This suggests that these models have maintained a 
+  strong safety record over time.
+
+ ### Business Objective 1 Recomendations
+  **Prioritization of Safer Models**: **Airlines and aircraft manufacturers should consider prioritizing these low-accident 
+  models** in fleet decisions, training programs, and safety regulations to enhance overall air travel safety.
+  **Continuous Safety Enhancements**:Although these models have demonstrated low accident rates, **ongoing improvements in 
+  maintenance, pilot training, and regulatory oversight should be sustained** to ensure continued safety performance.
 ### Visualizations
+
+![image](https://github.com/user-attachments/assets/adfa1b67-c018-4562-b1f5-61d710cccfdd)
+
 1. **Aircraft Model vs. Number of Accidents** – A bar chart showing the most and least accident-prone aircraft models.
 2. **Accident Causes by Category** – A pie chart breaking down the most common probable causes.
 3. **Accident Trends Over Time** – A line graph displaying the trend of aviation accidents from 1962 to 2023.
