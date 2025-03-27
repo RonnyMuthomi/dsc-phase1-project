@@ -43,7 +43,8 @@ The dataset is sourced from Kaggle, containing aviation accident data from the N
   maintenance, pilot training, and regulatory oversight should be sustained** to ensure continued safety performance.
 ### Visualizations
 
-![image](https://github.com/user-attachments/assets/adfa1b67-c018-4562-b1f5-61d710cccfdd)
+![Description](https://github.com/user-attachments/assets/adfa1b67-c018-4562-b1f5-61d710cccfdd){: width="300" height="200"}
+
 
 1. **Aircraft Model vs. Number of Accidents** – A bar chart showing the most and least accident-prone aircraft models.
 2. **Accident Causes by Category** – A pie chart breaking down the most common probable causes.
