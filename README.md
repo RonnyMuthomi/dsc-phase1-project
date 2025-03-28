@@ -29,6 +29,11 @@ The dataset is sourced from Kaggle, containing aviation accident data from the N
 - **Weather Conditions**: Environmental factors during the event.
 - **Phase of Flight**: Flight phase during which the incident occurred.
 
+## 📂 Project Folder Structure
+
+The project is organized as follows:
+dsc-phase1-project/ │── data/ # Folder containing the dataset │ ├── dataset.csv # Main dataset file │ │── .gitignore # Git ignore file │── Phase1-project-Dashboard.twb # Tableau project file │── README.md # Project documentation │── index.ipynb # Jupyter Notebook with analysis │── load.py # Python script for loading data │── script/ # Additional scripts (if any) │── presentation.pdf # Slides for project presentation │── github.pdf # Repository overview document │── notebook.pdf # Notebook overview document
+
  ### Business Objective 1 Finding
   - **Lowest Accident Rates**: The analysis identifies the top 10 safest aircraft models based on accident count. These models 
     have the lowest number of reported accidents in the dataset, making them statistically safer in terms of historical incident 
